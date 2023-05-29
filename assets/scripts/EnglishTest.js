@@ -6,9 +6,9 @@ var questionBank = [
         "to have lived",
         " to be lived",
         "to be living",
-        " to have lived",
+        "to have lived",
       ],
-      answer: " to have lived",
+      answer: "to have lived",
     },
     //Q2
   
@@ -150,16 +150,16 @@ var questionBank = [
     //Q13
     {
       question:
-        "If success _____, we need to prepare ourselves for every possible scenario.",
-      option: ["&ltstyle&gt", "&ltlink&gt", "&ltscript&gt", " &ltcss&gt"],
-      answer: "&ltlink&gt",
+        "What is the comparative form of the adjective 'good'?",
+      option: ["well", "better", "best", "gooder"],
+      answer: "better",
     },
     //Q14
     {
       question:
-        "The CSS property used to control the spacing between individual letters is:",
-      option: ["is achieved", "is to be achieved", " will be achieved", "is due to achieve"],
-      answer: "is to be achieved",
+        "Choose the correct form of the verb: She _____ to the store.",
+      option: ["goes", "go", "gone", "going"],
+      answer: "goes",
     },
     //Q15
     {
@@ -172,100 +172,100 @@ var questionBank = [
     //Q16
     {
       question:
-        "The HTML tag used to create an unordered list is: ",
-      option: ["&ltol&gt", "&ltli&gt", "&ltul&gt", "&ltdl&gt"],
-      answer: "&ltul&gt",
+      "What is the plural form of child?",
+      option: ["childs", "children", "childes", "cildren"],
+      answer: "children",
     },
     //Q17
     {
       question:
-        "The HTML tag used to define a hyperlink is:",
-      option: ["&lta&gt", "&ltlink&gt", "&lthref&gt", " &lturl&gt"],
-      answer: "&lthref&gt",
+      "Which word is the opposite of brave?",
+      option: ["fearless", "timid", "courageous", "daring"],
+      answer: "timid",
     },
     //Q18
     {
       question:
-        "The CSS property used to align text horizontally within its container is:",
-      option: ["text-align", "vertical-align", "align-items", " justify-content"],
-      answer: "text-align",
+      "What is the correct spelling?",
+      option: ["Neccessary", "Necesary", "Necessarry", " Necessary"],
+      answer: "Necessary",
     },
     //Q19
     {
       question:
-        "In CSS, the pseudo-class :hover is used to select elements when:",
-      option: ["They are being clicked", "They are being focused", "The mouse pointer is over them",
-       "They are the first child of their parent"],
-      answer: "The mouse pointer is over them",
+      "Choose the correct sentence:",
+      option: ["The cat lays on the mat.", "The cat lied on the mat.", "The cat lies on the mat.",
+       "The cat lain on the mat."],
+      answer: "The cat lies on the mat.",
     },
     //Q20
     {
       question:
-        "The HTML attribute used to specify an alternate text for an image is:",
-      option: ["alt", "title", "src", " href"],
-      answer: "alt",
+      "What is the past tense of sing?",
+      option: ["sang", "sung", "singed", "sings"],
+      answer: "sang",
     },
     //Q21
     {
       question:
-        "Which CSS property is used to control the order of stacked elements in a container?",
-      option: ["z-index", "order", "stack-order", "layer"],
-      answer: "z-index",
+      "Which word is a noun?",
+      option: ["happy", "quickly", "apple", "slowly"],
+      answer: "apple",
     },
     //Q22
     {
       question:
-        "The HTML tag used to define a line break is:",
-      option: ["&ltbreak>", "&ltlb&gt", "&ltbr&gt", "&ltline&gt"],
-      answer: "&ltbr&gt",
+      "What is the synonym for angry?",
+      option: ["happy", "sad", "mad", "calm"],
+      answer: "mad",
     },
     //Q23
     {
       question:
-        "The CSS property used to set the background color of an element is:",
-      option: ["background-color", "color", "bgcolor", " background"],
-      answer: "background-color",
+      "What is the superlative form of big?",
+      option: ["biger", "bigest", "biggest", "more big"],
+      answer: "biggest",
     },
     //Q24
     {
       question:
-        "The HTML attribute used to specify the size of an input field is:",
-      option: ["size", "length", "class", " both class and tag"],
-      answer: "size",
+        "Identify the correct sentence structure:",
+      option: ["Me and my brother are going to the park", "My brother and me are going to the park.", "My brother and I are going to the park", "I and my brother are going to the park."],
+      answer: "My brother and I are going to the park",
     },
     //Q24
     {
       question:
-        "Which of the following CSS selectors are used to specify a group of elements? ",
-      option: ["tag", "id", "class", " both class and tag"],
-      answer: "class",
+      "What is the synonym for beautiful?",
+      option: ["ugly", "pretty", "lovely", "nice"],
+      answer: "pretty",
     },
     //Q26
     {
       question:
-        "Which of the following CSS selectors are used to specify a group of elements? ",
-      option: ["tag", "id", "class", " both class and tag"],
-      answer: "class",
+      "Choose the correctly spelled word:",
+      option: ["reseive", "recieve", "receive", "recive"],
+      answer: "receive",
     },
     //Q27
     {
       question:
-        "Which of the following CSS selectors are used to specify a group of elements? ",
-      option: ["tag", "id", "class", " both class and tag"],
-      answer: "class",
+      "Which sentence is in the present perfect tense?",
+      option: ["I will go to the store tomorrow.", "I went to the store yesterday.", "I go to the store every day.", "I have gone to the store."],
+      answer: "I have gone to the store.",
     },
     //Q28
     {
       question:
         "Which of the following CSS selectors are used to specify a group of elements? ",
-      option: ["tag", "id", "class", " both class and tag"],
-      answer: "class",
+      option: ["an car", "an cat", "a car", "a elephant"],
+      answer: "a car",
     },
     //Q29
     {
       question:
-        "Which of the following CSS selectors are used to specify a group of elements? ",
-      option: ["tag", "id", "class", " both class and tag"],
+      "What is the comparative form of bad?",
+      option: ["baddest", "badder", "worse", " both class and tag"],
       answer: "class",
     },
     //Q30
@@ -277,7 +277,6 @@ var questionBank = [
     },
   ];
   // console.log(questionBank.length);
-  
   var question = document.getElementById("question");
   var quizContainer = document.getElementById("quiz-container");
   var scorecard = document.getElementById("scoreboard");
@@ -292,13 +291,21 @@ var questionBank = [
   var i = 0;
   var selectedAnswers = [];
   var score = 0;
+  var optiond0=document.getElementById('option0')
+  var optiond1=document.getElementById('option1')
+  var optiond2=document.getElementById('option2')
+  var optiond3=document.getElementById('option3')
   
   var savedTime = localStorage.getItem("timer1");
   var timeInSecs1 = savedTime ? parseInt(savedTime) : 20 * 60; // Default to 10 minutes if no saved time exists
   var ticker;
   function shuffle(array) {
+    
+  // for there remain elements to shuffle.
     for (let i = array.length - 1; i > 0; i--) {
+      // Pick a remaining element.
       const j = Math.floor(Math.random() * (i + 1));
+      // And swap it with the current element.
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
@@ -322,9 +329,17 @@ var questionBank = [
      
     }
     option0.innerHTML = questionBank[i].option[0];
+    optiond0.checked = false; // Set checked attribute to false
+
     option1.innerHTML = questionBank[i].option[1];
+    optiond1.checked = false; // Set checked attribute to false
+
     option2.innerHTML = questionBank[i].option[2];
+    optiond2.checked = false; // Set checked attribute to false
+
     option3.innerHTML = questionBank[i].option[3];
+    optiond3.checked = false; // Set checked attribute to false
+
     stat.innerHTML = "Question " + (questionCount ) + " of 15";}
     else{
       points.innerHTML = score + "/" +15;
@@ -336,7 +351,7 @@ var questionBank = [
   
   //function to calculate scores
   function calcScore(e) {
-    if (e.innerHTML === questionBank[i].answer && score < questionBank.length) {
+    if (e.innerHTML === questionBank[i].answer ) {
       score = score + 1;
       
     }
@@ -347,7 +362,7 @@ var questionBank = [
   
   //function to display next question
   function nextQuestion() {
-    if (i < questionBank.length - 1) {
+    if (i < questionBank.length ) {
       i = i + 1;
       displayQuestion();
       
@@ -422,7 +437,7 @@ var questionBank = [
   console.log(currentUser)
   
 
- 
+ var checkanswer =document.getElementById("check-answer")
   function updateInfo(){
   
          
@@ -452,6 +467,7 @@ var questionBank = [
         localStorage.setItem("currentUser", JSON.stringify(currentUser));
   }
   done.addEventListener("click", updateInfo);
+  checkanswer.addEventListener("click", updateInfo);
   function startTimer(secs) {
     timeInSecs1 = parseInt(secs);
     ticker = setInterval(tick, 1000);

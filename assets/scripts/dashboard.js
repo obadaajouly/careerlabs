@@ -32,21 +32,28 @@ let eng = document.getElementById('eng')
 //     done_button.disabled=false;
 
 // }
+let infoImg = document.getElementById("info-img")
+let engQuizImg = document.getElementById("engquiz-img")
+let techQuizImg = document.getElementById("techquiz-img")
+
 progressbar()
 
 function progressbar(){
     let updatedProgressbar = 0
     array.progressbar = 0
     if (array.info){
+        infoImg.src = "../imgs/info.png"
         updatedProgressbar +=33
         info.href="dashboard.html"
     }
     if (array.englishFlag){
         updatedProgressbar +=33
+        engQuizImg.src = "../imgs/engquiz.png"
         eng.href="dashboard.html"
     }
     if (array.techFlag){
         updatedProgressbar +=34
+        techQuizImg.src = "../imgs/techquiz.png"
         tech.href="dashboard.html"
     }
 

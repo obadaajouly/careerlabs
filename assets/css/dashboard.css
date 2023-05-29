@@ -20,12 +20,12 @@
 }
 
 .bar{
-    border-color: rgb(19, 33, 227);
+    border-color:#42B6CB;
 }
 .img_option{
 
   border-radius: 12px;
-    box-shadow:rgb(50, 176, 199) 0px 5px 15px 2px;
+    /* box-shadow:rgb(50, 176, 199) 0px 5px 15px 2px; */
  
 }
 #range{
@@ -44,7 +44,7 @@
 @keyframes move{
  
     to{
-        box-shadow: rgb(46, 195, 222) 0px 20px 30px 2px;
+        box-shadow: rgba(46, 196, 222, 0.397) 0px 20px 30px 2px;
         transform:  scale(1.05) ;
         
 }

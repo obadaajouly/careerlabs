@@ -215,5 +215,18 @@ button:hover {
 
   display: flex;
   width: 15%;
-margin-left: auto;  
+margin-left: 70%;  
 }
+@media screen and (max-width: 1279px) {
+  #scoreboard{
+    width: 40%;
+  }
+  .img_gif{
+    width: 20%;
+    margin-left: 40%;
+   
+
+
+  }
+   }
+  
